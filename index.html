@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="content__wrapper">
+        <div class="content__wrapper__a"></div>
+        <div class="content__wrapper__b">
+          <div class="content__wrapper__b__logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <div class="content__wrapper__b__text">
+            <h1>We're</h1>
+            <h1>Coming</h1>
+            <h1>Soon</h1>
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <form class="content__wrapper__b__input" id="form">
+            <input
+              type="text"
+              name=""
+              id="email"
+              class="content__wrapper__b__input__email"
+              placeholder="Email Address"
+            />
+            <button
+              type="submit"
+              id="btn"
+              class="content__wrapper__b__input__btn"
+            ></button>
+          </form>
+          <small class="smallDesktop"></small>
+        </div>
+        <div class="content__wrapper__c"></div>
+      </div>
+    </div>
+    <!-- mobile -->
+    <div class="media">
+      <div class="media__wrapper">
+        <div class="media__wrapper__a"></div>
+        <div class="media__wrapper__b"></div>
+        <div class="media__wrapper__c">
+          <div class="media__wrapper__c__text">
+            <h1>We're</h1>
+            <h1>Coming</h1>
+            <h1>Soon</h1>
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+
+          <form class="media__wrapper__c__input" id="mobileForm">
+            <input
+              type="email"
+              name=""
+              id="emailMedia"
+              class="media__wrapper__c__input__email"
+              placeholder="Email Address"
+            />
+            <input
+              type="submit"
+              value=""
+              id="btnMedia"
+              class="media__wrapper__c__input__btn"
+            />
+          </form>
+          <small class="smallMedia"></small>
+        </div>
+      </div>
+    </div>
+    <!-- mobile -->
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
